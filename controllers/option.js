@@ -1,6 +1,6 @@
 // importing required models
-const Option = require('../models/option');
-const Question = require('../models/question');
+const Option = require('../Schema/option');
+const Question = require('../Schema/question');
 
 // delete option
 module.exports.delete = async function(req, res){

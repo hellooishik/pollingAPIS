@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
-const Option = require('../models/option');
-const Question = require('../models/question')
+const Option = require('../Schema/option');
+const Question = require('../Schema/question')
 
 // Controller function to create an option for a given question
 module.exports.create = async function (req, res) {

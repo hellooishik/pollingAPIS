@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const Question = require('../models/question')
+const Question = require('../Schema/question')
 
 module.exports.home = async function(req, res) {
     try {

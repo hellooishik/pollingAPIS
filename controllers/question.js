@@ -1,6 +1,6 @@
 // import required models
-const Question = require('../models/question');
-const Option = require('../models/option');
+const Question = require('../Schema/question');
+const Option = require('../Schema/option');
 
 // list all the questions
 module.exports.listAll = async function(req, res){
