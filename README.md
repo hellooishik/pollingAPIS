@@ -1,34 +1,21 @@
-# POLLING SYSTEM API
+# POLLING SYSTEM API By coding Ninja
 
 A simple polling system api where anyone can create questions with options and can also add votes to those options.
 
-## Requirements
-
-- Install [Node.js](https://nodejs.org/en/)
-- Install [MongoDB](https://docs.mongodb.com/manual/installation/)
-- Install [Postman](https://www.postman.com/downloads/) or use any other api testing tool
+## Technology I used 
+1. Node.js
+2. Postman (API Fetching)
+3. express
+4. Mongodb Compass
+5. Morgan JS 
 
 ## Getting Started
-
+You can clone my Repository and Setup Postman to see the api Changes Which been GET request
 - Clone the repository
-
-```
-git clone <repo url> <project_name>
-```
-
-- Install dependencies
-
-```
-npm install
-```
-
+git clone https://github.com/hellooishik/pollingAPIS.git
+- Type Npm install to install all the required dependencies
 - Open "config/mongoose.js" and add MongoDB URI, local or Atlas
-
-- Build and run the project
-
-```
-npm start
-```
+- Build and run the project using npm start
 
 - Navigate to `http://localhost:8000/`
 
@@ -41,7 +28,4 @@ npm start
 - /options/:optionsId/add_vote (To increment the count of votes)
 - /questions/:questionId (To view a question and it’s options)
 - /questions/ (To list down all the questions)
-
----
-
-## <samp>**_Enjoy Learning!!!_**</samp>
+If you like this , make sure to star this repo to give love and support
