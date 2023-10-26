@@ -88,6 +88,14 @@ module.exports.addOption = async function(req, res){
         });
     }
 }
+// This module is for checking the base case
+module.exports.flash(res,req){
+    if(err){
+        console.log("Flash got crushed on " + PORT);
+    }
+    console.log("flash is working fine");
+}
+
 
 module.exports.delete = async function(req,res){
     try{
